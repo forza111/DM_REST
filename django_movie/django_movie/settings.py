@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+from django_movie.django_movie.secret import *
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -74,16 +76,8 @@ WSGI_APPLICATION = 'django_movie.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    'default' : {
-    'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    'NAME': 'movie',
-    'USER': 'postgres',
-    'PASSWORD' : '12345',
-    'HOST': 'localhost',
-    'PORT': '5432',
-    }
-}
+DATABASES = DATABASES
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
