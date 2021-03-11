@@ -1,0 +1,432 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2021-03-11T20:18:17.351Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Арнольд Шварцнеггер",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2021-03-11T20:19:04.017Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Джеки Чан",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2021-03-11T20:20:32.307Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Квентин Тарантино",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2021-03-11T20:21:23.641Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Кэммерон Джеймс",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2021-03-11T20:21:39.498Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "Боевик",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2021-03-11T20:21:54.351Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "Комедии",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2021-03-11T20:22:00.172Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2021-03-11T20:22:05.113Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2021-03-11T20:22:09.094Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2021-03-11T20:22:12.667Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2021-03-11T20:22:18.408Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2021-03-11T20:22:33.456Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Фильмы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2021-03-11T20:22:49.297Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Сериалы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2021-03-11T20:27:45.032Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Терминатор",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2021-03-11T20:31:05.045Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Холодное сердце",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2021-03-11T20:33:42.430Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Форсаж",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$WDxKnbrxA2f5$Gz8awdCm3sppdm8n80lCGRigo+kcW91CgY8EsqEja8w=",
+    "last_login": "2021-03-11T17:00:58.344Z",
+    "is_superuser": true,
+    "username": "forza111",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-03-11T16:55:31.063Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9qdp6sw51ze96hwy9yld108zpy25jq74",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEwyMul-34DGRiQqqFJaVfGf1eSLnR3c8_JebGA-1bD3vMaZmIXJtnp94uYHrkNQHdst4WnpW3rHPlQ-EE7nxbKz-vh_gUq9jqySnif5FmLDEYAeCe0k9YQ-KJRxSjRfadRAhSAJSmSU8VDKYlstMjeH5moNqs:1lKOgE:C8QHEsJPLq5z6f6Kyzmdivk6gdER2c8GKHiXQhvPtg8",
+    "expire_date": "2021-03-25T17:00:58.357Z"
+  }
+},
+{
+  "model": "movies.category",
+  "pk": 1,
+  "fields": {
+    "name": "Фильмы",
+    "description": "Фильмы",
+    "url": "films"
+  }
+},
+{
+  "model": "movies.category",
+  "pk": 2,
+  "fields": {
+    "name": "Сериалы",
+    "description": "Сериалы",
+    "url": "serial"
+  }
+},
+{
+  "model": "movies.actor",
+  "pk": 1,
+  "fields": {
+    "name": "Арнольд Шварцнеггер",
+    "age": 73,
+    "description": "Арно́льд Ало́ис Шварцене́ггер (нем. Arnold Alois Schwarzenegger [ˈaɐ̯nɔlt ˈaloʏs ˈʃvaɐ̯tsn̩ˌʔɛɡɐ], англ. [ˈʃvɑːrtsnɛɡər] или [ˈʃwɔːrtsnɛɡər]; род. 30 июля 1947 года, община Таль близ города Грац, Штирия, Австрия) — американский культурист, предприниматель, актёр, продюсер и политический деятель австрийского происхождения. 38-й губернатор Калифорнии (был избран на эту должность в октябре 2003 года и переизбран на второй срок в 2006 году).\r\n\r\nОбладатель ряда премий по бодибилдингу, в том числе семикратный обладатель титула «Мистер Олимпия». Организатор конкурса «Арнольд Классик».",
+    "image": "actors/800px-Arnold_Schwarzenegger_by_Gage_Skidmore_3.jpg"
+  }
+},
+{
+  "model": "movies.actor",
+  "pk": 2,
+  "fields": {
+    "name": "Джеки Чан",
+    "age": 66,
+    "description": "Дже́ки Чан (англ. Jackie Chan; кант. трад. 陳港生, кант.-рус.: Чхань Конса́н, палл.: Чэнь Ганшэ́н, буквально: «Чэнь, рождённый в Гонконге»; в Китае наиболее известен под сценическим псевдонимом Чэн Лун, кит. 成龍, иногда упоминается как Фан Шилу́н[5]; род. 7 апреля 1954[1][2][3][…], Пик Виктория, Британский Гонконг[4])[6] — гонконгский актёр, каскадёр, кинорежиссёр, продюсер, сценарист, постановщик трюков и боевых сцен, певец, филантроп, мастер боевых искусств. Посол доброй воли ЮНИСЕФ. Кавалер ордена Британской империи[7], главный режиссёр Чанчуньской киностудии — старейшей киностудии в КНР.",
+    "image": "actors/Jackie_Chan_July_2016.jpg"
+  }
+},
+{
+  "model": "movies.actor",
+  "pk": 3,
+  "fields": {
+    "name": "Квентин Тарантино",
+    "age": 57,
+    "description": "Кве́нтин Джеро́м Таранти́но (англ. Quentin Jerome Tarantino, МФА: [ˌtærənˈtiːno]; род. 27 марта 1963 года, Ноксвилл, Теннесси, США) — американский кинорежиссёр, сценарист, актёр, кинопродюсер и кинооператор. Один из наиболее ярких представителей постмодернизма в кинематографе. Фильмы Тарантино отличаются нелинейной структурой повествования, переосмыслением культурно-исторического процесса, использованием готовых форм и эстетизацией насилия[2][3].",
+    "image": "actors/Quentin_Tarantino_by_Gage_Skidmore.jpg"
+  }
+},
+{
+  "model": "movies.actor",
+  "pk": 4,
+  "fields": {
+    "name": "Кэммерон Джеймс",
+    "age": 66,
+    "description": "Дже́ймс Фрэ́нсис Кэ́мерон (англ. James Francis Cameron; род. 16 августа 1954, Капускасинг[en], Онтарио, Канада) — канадский кинорежиссёр, наиболее известный по созданию научно-фантастических и эпических фильмов. Кэмерон впервые добился признания за режиссуру фильма «Терминатор» (1984). Затем постановщик обрёл критический и коммерческий успех благодаря картинам «Чужие» (1986), «Бездна» (1989), «Терминатор 2: Судный день» (1991) и «Правдивая ложь» (1994). Его самые высокобюджетные киноленты — «Титаник» (1997) и «Аватар» (2009), причём первая удостоилась премии «Оскар» в номинациях «Лучший фильм», «Лучший режиссёр» и «Лучший монтаж».",
+    "image": "actors/James_Cameron_by_Gage_Skidmore.jpg"
+  }
+},
+{
+  "model": "movies.genre",
+  "pk": 1,
+  "fields": {
+    "name": "Боевик",
+    "description": "Боевик",
+    "url": "action"
+  }
+},
+{
+  "model": "movies.genre",
+  "pk": 2,
+  "fields": {
+    "name": "Комедии",
+    "description": "Комедии",
+    "url": "comedy"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 1,
+  "fields": {
+    "title": "Терминатор",
+    "tagline": "I’ll be back",
+    "description": "<p>В центре сюжета&nbsp;&mdash; противостояние солдата и <a href=\"https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B1%D0%BE%D1%82\" title=\"Робот\">робота</a>-<a href=\"https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80_(%D1%80%D0%BE%D0%B1%D0%BE%D1%82)\" title=\"Терминатор (робот)\">терминатора</a>, прибывших в 1984 год из постапокалиптического 2029 года. Цель терминатора: убить <a href=\"https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D1%80%D0%B0_%D0%9A%D0%BE%D0%BD%D0%BD%D0%BE%D1%80_(%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6)\" title=\"Сара Коннор (персонаж)\">Сару Коннор</a>&nbsp;&mdash; девушку, чей ещё нерождённый сын в возможном будущем выиграет войну человечества с машинами. Влюблённый в Сару солдат <a href=\"https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B9%D0%BB_%D0%A0%D0%B8%D0%B7\" title=\"Кайл Риз\">Кайл Риз</a> пытается помешать терминатору. В фильме поднимаются проблемы путешествий во времени, судьбы, создания <a href=\"https://ru.wikipedia.org/wiki/%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82\" title=\"Искусственный интеллект\">искусственного интеллекта</a>, поведения людей в экстремальных ситуациях.</p>",
+    "poster": "movies/terminator.jpg",
+    "year": 1984,
+    "country": "США",
+    "world_premiere": "1984-07-01",
+    "budget": 6400000,
+    "fees_in_usa": 50000000,
+    "fees_in_world": 78000000,
+    "category": 1,
+    "url": "terminator_1",
+    "draft": false,
+    "directors": [
+      3
+    ],
+    "actors": [
+      1
+    ],
+    "genres": [
+      1
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 2,
+  "fields": {
+    "title": "Холодное сердце",
+    "tagline": "The ice heart",
+    "description": "<p>&laquo;<strong>Холодное сердце</strong>&raquo; (<a href=\"https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA\" title=\"Английский язык\">англ.</a>&nbsp;<em>Frozen</em>)&nbsp;&mdash; американский <a href=\"https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D1%86%D0%B8%D1%8F\" title=\"Компьютерная анимация\">компьютерный анимационный</a> фильм <a href=\"https://ru.wikipedia.org/wiki/2013_%D0%B3%D0%BE%D0%B4_%D0%B2_%D0%BA%D0%B8%D0%BD%D0%BE\" title=\"2013 год в кино\">2013 года</a>, <a href=\"https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B0%D0%B6%D0%BD%D1%8B%D1%85_%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85_%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%BE%D0%B2_%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8_%D0%A3%D0%BE%D0%BB%D1%82%D0%B0_%D0%94%D0%B8%D1%81%D0%BD%D0%B5%D1%8F\" title=\"Список полнометражных анимационных фильмов компании Уолта Диснея\">пятьдесят третий полнометражный</a> мультфильм, созданный студией &laquo;<a href=\"https://ru.wikipedia.org/wiki/Walt_Disney_Animation_Studios\" title=\"Walt Disney Animation Studios\">Walt Disney Animation Studios</a>&raquo; и выпущенный компанией &laquo;<a href=\"https://ru.wikipedia.org/wiki/Walt_Disney_Pictures\" title=\"Walt Disney Pictures\">Walt Disney Pictures</a>&raquo;<sup><a href=\"https://ru.wikipedia.org/wiki/%D0%A5%D0%BE%D0%BB%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5_%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5#cite_note-6\">[6]</a></sup>. Мультфильм вдохновлён сказкой <a href=\"https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B4%D0%B5%D1%80%D1%81%D0%B5%D0%BD,_%D0%A5%D0%B0%D0%BD%D1%81_%D0%9A%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%B0%D0%BD\" title=\"Андерсен, Ханс Кристиан\">Ханса Христиана Андерсена</a> &laquo;<a href=\"https://ru.wikipedia.org/wiki/%D0%A1%D0%BD%D0%B5%D0%B6%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0\" title=\"Снежная королева\">Снежная королева</a>&raquo;<sup><a href=\"https://ru.wikipedia.org/wiki/%D0%A5%D0%BE%D0%BB%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5_%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5#cite_note-sf-7\">[7]</a></sup><sup><a href=\"https://ru.wikipedia.org/wiki/%D0%A5%D0%BE%D0%BB%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5_%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5#cite_note-8\">[8]</a></sup>. По сюжету храбрая принцесса <a href=\"https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%BD%D0%B0_(%D0%94%D0%B8%D1%81%D0%BD%D0%B5%D0%B9)\" title=\"Анна (Дисней)\">Анна</a> и простой парень Кристофф вместе с оленем Свеном и снеговиком Олафом отправляются в опасное путешествие по заснеженным горным вершинам, чтобы попытаться найти старшую сестру Анны, <a href=\"https://ru.wikipedia.org/wiki/%D0%AD%D0%BB%D1%8C%D0%B7%D0%B0_(%D0%94%D0%B8%D1%81%D0%BD%D0%B5%D0%B9)\" title=\"Эльза (Дисней)\">Эльзу</a>, нечаянно наложившую заклятье на их королевство и тем самым обрёкшую на вечную зиму его жителей.</p>",
+    "poster": "movies/Frozen_2013.jpg",
+    "year": 2013,
+    "country": "США",
+    "world_premiere": "2013-11-19",
+    "budget": 150000000,
+    "fees_in_usa": 508000000,
+    "fees_in_world": 1280000000,
+    "category": 1,
+    "url": "frozen",
+    "draft": false,
+    "directors": [
+      3
+    ],
+    "actors": [
+      2
+    ],
+    "genres": [
+      2
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 3,
+  "fields": {
+    "title": "Форсаж",
+    "tagline": "The Fast and the Furious",
+    "description": "<p>Группа налётчиков грабит грузовики с бытовой техникой. Полиции <a href=\"https://ru.wikipedia.org/wiki/%D0%9B%D0%BE%D1%81-%D0%90%D0%BD%D0%B4%D0%B6%D0%B5%D0%BB%D0%B5%D1%81\" title=\"Лос-Анджелес\">Лос-Анджелеса</a> и <a class=\"mw-redirect\" href=\"https://ru.wikipedia.org/wiki/%D0%A4%D0%91%D0%A0\" title=\"ФБР\">ФБР</a> известно лишь, что преступники орудуют на трёх машинах <a href=\"https://ru.wikipedia.org/wiki/Honda_Civic\" title=\"Honda Civic\">Honda Civic</a> чёрного цвета с неоновым освещением. Налётчиками, скорее всего, являются кто-нибудь из местных уличных гонщиков.</p>",
+    "poster": "movies/The_Fast_and_the_Furious.jpg",
+    "year": 2001,
+    "country": "США, Германия",
+    "world_premiere": "2001-03-11",
+    "budget": 38000000,
+    "fees_in_usa": 104999998,
+    "fees_in_world": 207200000,
+    "category": 1,
+    "url": "forsaj",
+    "draft": false,
+    "directors": [
+      1
+    ],
+    "actors": [
+      1,
+      2
+    ],
+    "genres": [
+      1
+    ]
+  }
+},
+{
+  "model": "movies.ratingstar",
+  "pk": 1,
+  "fields": {
+    "value": 1
+  }
+},
+{
+  "model": "movies.ratingstar",
+  "pk": 2,
+  "fields": {
+    "value": 2
+  }
+},
+{
+  "model": "movies.ratingstar",
+  "pk": 3,
+  "fields": {
+    "value": 3
+  }
+},
+{
+  "model": "movies.ratingstar",
+  "pk": 4,
+  "fields": {
+    "value": 4
+  }
+},
+{
+  "model": "movies.ratingstar",
+  "pk": 5,
+  "fields": {
+    "value": 5
+  }
+}
+]
