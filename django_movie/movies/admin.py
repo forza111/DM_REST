@@ -106,7 +106,7 @@ class ReviewAdmin(admin.ModelAdmin):
     readonly_fields = ("name", "email")
 
 @admin.register(Genre)
-class GenreAdmin(TranslationAdmin):
+class GenreAdmin(admin.ModelAdmin):
     '''Жанры'''
     list_display = ("name", "url")
 
