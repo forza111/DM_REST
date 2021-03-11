@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
-from django_movie.django_movie.secret import *
+from django_movie.secret import *
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
