@@ -7,8 +7,7 @@ from ckeditor_uploader.widgets import CKEditorUploadingWidget
 
 
 class MovieAdminForm(forms.ModelForm):
-    description_ru = forms.CharField(label = "Описание", widget=CKEditorUploadingWidget())
-    description_en = forms.CharField(label = "Описание", widget=CKEditorUploadingWidget())
+    description = forms.CharField(label = "Описание", widget=CKEditorUploadingWidget())
 
 
     class Meta:
