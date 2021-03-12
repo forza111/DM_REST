@@ -208,6 +208,32 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2021-03-11T20:58:24.680Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Терминатор",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2021-03-12T06:16:44.409Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "Test - Форсаж",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u0435\"]}}]"
+  }
+},
+{
   "model": "auth.user",
   "pk": 1,
   "fields": {
@@ -427,6 +453,39 @@
   "pk": 5,
   "fields": {
     "value": 5
+  }
+},
+{
+  "model": "movies.review",
+  "pk": 1,
+  "fields": {
+    "email": "test@gmail.com",
+    "name": "Mike",
+    "text": "My mess",
+    "parent": null,
+    "movie": 3
+  }
+},
+{
+  "model": "movies.review",
+  "pk": 2,
+  "fields": {
+    "email": "eee@gmail.com",
+    "name": "Test",
+    "text": "Two mess",
+    "parent": null,
+    "movie": 3
+  }
+},
+{
+  "model": "movies.review",
+  "pk": 3,
+  "fields": {
+    "email": "eee@gmail.com",
+    "name": "Test",
+    "text": "Three mess",
+    "parent": 1,
+    "movie": 3
   }
 }
 ]
