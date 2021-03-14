@@ -22,6 +22,11 @@ class ActorListSerializer(serializers.ModelSerializer):
         model = Actor
         fields = ("id", "name", "image")
 
+class ActorDetailSerializer(serializers.ModelSerializer):
+    '''Вывод полного описания актера и режиссера'''
+    class Meta:
+        model = Actor
+        fields = "__all__"
 
 class MovieListSerializer(serializers.ModelSerializer):
     '''Список фильмов'''

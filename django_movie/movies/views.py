@@ -10,7 +10,8 @@ from .serializers import (
     MovieDetailSerializer,
     ReviewCreateSerializer,
     CreateRatingSerializer,
-    ActorListSerializer
+    ActorListSerializer,
+    ActorDetailSerializer,
 )
 from .service import get_client_ip
 
@@ -61,3 +62,9 @@ class ActorsListView(generics.ListAPIView):
     '''Вывод списка актеров'''
     queryset = Actor.objects.all()
     serializer_class = ActorListSerializer
+
+
+class ActorsDetailView(generics.RetrieveAPIView):
+    '''Вывод актера или режиссера'''
+    queryset = Actor.objects.all()
+    serializer_class = ActorDetailSerializer
