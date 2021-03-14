@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Movie, Review, Rating
+from .models import Movie, Review, Rating, Actor
 
 class FilterReviewListSerializer(serializers.ListSerializer):
     '''Фильтр комментариев, только parrent'''
@@ -11,9 +11,16 @@ class FilterReviewListSerializer(serializers.ListSerializer):
 
 class RecursiveSerializer(serializers.Serializer):
     '''Вывос рекурсивно children'''
-    def to_representation(self, value):#value - значение одной записи из БД
+    def to_representation(self, value):
         serializer = self.parent.parent.__class__(value, context=self.context)
         return serializer.data
+
+
+class ActorListSerializer(serializers.ModelSerializer):
+    '''Вывод списка актеров и режиссеров'''
+    class Meta:
+        model = Actor
+        fields = ("id", "name", "image")
 
 
 class MovieListSerializer(serializers.ModelSerializer):
