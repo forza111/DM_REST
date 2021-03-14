@@ -12,11 +12,8 @@ class MovieListView(APIView):
     '''Вывод списка фильмов'''
     def get(self, request):
         movies = Movie.objects.filter(draft=False).annotate(
-            rating_user=models.Case(
-                models.When(ratings__ip=get_client_ip(request), then=True),
-                default=False,
-                output_field=models.BooleanField()
-            ),
+            rating_user=models.Count("ratings", filter=models.Q(
+                ratings__ip=get_client_ip(request)))
         )
         serializer = MovieListSerializer(movies, many=True)
         return Response(serializer.data)
