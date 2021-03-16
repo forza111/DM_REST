@@ -1,5 +1,5 @@
 from django_filters import rest_framework as filters
-from django_movie.movies.models import Movie
+from .models import Movie
 
 def get_client_ip(request):
     '''Получение IP пользователя'''
@@ -18,7 +18,7 @@ class CharFilterInFilter(filters.BaseInFilter, filters.CharFilter):
 
 class MovieFilter(filters.FilterSet):
     genres = CharFilterInFilter(field_name='genres__name', lookup_expr='in')#in - вхождение
-    year = filters.RangeFilter
+    year = filters.RangeFilter()
 
     class Meta:
         model = Movie
