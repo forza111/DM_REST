@@ -16,26 +16,25 @@ from .serializers import (
 from .service import get_client_ip
 
 
-class MovieListView(APIView):
+class MovieListView(generics.ListAPIView):
     '''Вывод списка фильмов'''
-    def get(self, request):
+    serializer_class = MovieListSerializer
+
+    def get_queryset(self):
         movies = Movie.objects.filter(draft=False).annotate(
             rating_user=models.Count("ratings", filter=models.Q(
-                ratings__ip=get_client_ip(request)))
+                ratings__ip=get_client_ip(self.request)))
             ).annotate(
             middle_star=models.Sum(models.F('ratings__star')) /
                         models.Count(models.F('ratings'))
         )
-        serializer = MovieListSerializer(movies, many=True)
-        return Response(serializer.data)
+        return movies
 
 
-class MovieDetailView(APIView):
+class MovieDetailView(generics.RetrieveAPIView):
     '''Вывод фильма'''
-    def get(self, request, pk):
-        movie = Movie.objects.get(id=pk, draft=False)
-        serializer = MovieDetailSerializer(movie)
-        return Response(serializer.data)
+    queryset = Movie.objects.filter(draft=False)
+    serializer_class = MovieDetailSerializer
 
 
 class ReviewCreateView(APIView):
