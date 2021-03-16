@@ -42,15 +42,12 @@ class ReviewCreateView(generics.CreateAPIView):
     serializer_class = ReviewCreateSerializer
 
 
-class AddStarRatingView(APIView):
+class AddStarRatingView(generics.CreateAPIView):
     '''Добавление рейтинга фильму'''
-    def post(self, request):
-        serializer = CreateRatingSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save(ip=get_client_ip(request))
-            return Response(status=201)
-        else:
-            return Response(status=400)
+    serializer_class = CreateRatingSerializer
+
+    def perform_create(self, serializer):
+        serializer.save(ip=get_client_ip(self.request))
 
 
 class ActorsListView(generics.ListAPIView):
