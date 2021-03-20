@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'ckeditor',
     'ckeditor_uploader',
+    'drf_yasg',
     'djoser',
     'django_filters',
     'movies',
